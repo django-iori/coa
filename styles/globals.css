@@ -4,12 +4,72 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #dcdcdc;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/*見出し*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	position: relative;
+  padding: 0.1em 0.5em;
+  background: -webkit-linear-gradient(to right, rgb(92, 68, 45), transparent);
+  background: linear-gradient(to right, rgb(191, 193, 205), transparent);
+  color: #545454;
 }
+.section-title {
+	padding: 20px 0;
+}
+
+/*スライダー*/
+figure figcaption {
+  font-size: 60px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  
+}
+.decorator {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Amatic SC', cursive;
+}
+
+/*タイトル（ナビゲーション）*/
+.navbar-brand {
+	position: relative;
+	padding-top: 50px;
+	padding-left: 30px;
+	font-size: 26px;
+}
+
+.navbar-brand span {
+	position: relative;
+	z-index: 2;
+}
+
+.navbar-brand::before {
+	content: attr(data-en);
+	position: absolute;
+	transform: rotate(-5deg);
+	top: -20px;
+	left: 0;
+	color: rgba(9, 9, 9, 0.6);
+	font-size: 80px;
+	font-weight: 400;
+	font-family: luxus-brut, cursive;
+	font-style: italic;
+}
+
+
 
 * {
   box-sizing: border-box;
