@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navigation from './Navigation'
-import Script from 'next/Script'
+import Script from 'next/script'
 const Layout = (props) => {
     return (
         <>
