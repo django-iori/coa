@@ -43,7 +43,7 @@ const Index = () => {
 						</div>
 					</div>
 				</div>
-		<iframe type="text/html" frameborder="0" width="100%" height="1000px" src="//airrsv.net/coa-music/calendar/embed/" ></iframe>
+		<iframe type="text/html" frameBorder="0" width="100%" height="1000px" src="//airrsv.net/coa-music/calendar/embed/" ></iframe>
       </div>
 		</section>
     </>
