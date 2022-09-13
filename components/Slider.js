@@ -11,19 +11,19 @@ const Slider = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <figure>
-            <Image src="/images/piano.jpg" layout="responsive"  width={600} height={400} alt="My avatar" />
+            <img src="/images/piano.jpg" layout="responsive"  width="600" height="400" alt="My avatar" />
             <figcaption className="decorator">Coa Music classNamees</figcaption>
             </figure>
           </div>
           <div className="carousel-item">
             <figure>
-            <Image src="/images/marimba.jpg" layout="responsive"  width={600} height={400} alt="My avatar" />
+            <img src="/images/marimba.jpg" layout="responsive"  width="600" height="400" alt="My avatar" />
             <figcaption className="decorator">Coa Music classNamees</figcaption>
             </figure>
           </div>
           <div className="carousel-item">
             <figure>
-            <Image src="/images/iori_guitar.jpg" layout="responsive"  width={600} height={400} alt="My avatar" />
+            <img src="/images/iori_guitar.jpg" layout="responsive"  width="600" height="400" alt="My avatar" />
             <figcaption className="decorator">Coa Music classNamees</figcaption>
             </figure>
           </div>

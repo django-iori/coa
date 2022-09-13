@@ -6,9 +6,6 @@ const nextConfig = {
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
 }
 
 module.exports = nextConfig
