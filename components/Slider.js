@@ -10,19 +10,19 @@ const Slider = () => {
           <div className="carousel-item active">
             <figure>
             <img src="images/piano.jpg" className="img-responsive" alt="My avatar" />
-            <figcaption className="decorator">Coa Music classNamees</figcaption>
+            <figcaption className="decorator">Coa Music classes</figcaption>
             </figure>
           </div>
           <div className="carousel-item">
             <figure>
             <img src="images/sample1.jpg" className="img-responsive" alt="My avatar" />
-            <figcaption className="decorator">Coa Music classNamees</figcaption>
+            <figcaption className="decorator">Coa Music classes</figcaption>
             </figure>
           </div>
           <div className="carousel-item">
             <figure>
             <img src="images/iori_guitar.jpg" className="img-responsive" alt="My avatar" />
-            <figcaption className="decorator">Coa Music classNamees</figcaption>
+            <figcaption className="decorator">Coa Music classes</figcaption>
             </figure>
           </div>
         </div>

@@ -46,9 +46,10 @@ figure figcaption {
 /*タイトル（ナビゲーション）*/
 .navbar-brand {
 	position: relative;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-left: 30px;
-	font-size: 26px;
+	font-size: 50px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .navbar-brand span {
@@ -56,18 +57,7 @@ figure figcaption {
 	z-index: 2;
 }
 
-.navbar-brand::before {
-	content: attr(data-en);
-	position: absolute;
-	transform: rotate(-5deg);
-	top: -20px;
-	left: 0;
-	color: rgba(9, 9, 9, 0.6);
-	font-size: 60px;
-	font-weight: 400;
-	font-family: luxus-brut, cursive;
-	font-style: italic;
-}
+
 
 
 
