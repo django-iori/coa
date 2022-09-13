@@ -5,11 +5,11 @@ const Index = () => {
   return (
     <>
       <Slider />
-      <section class="light-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
+      <section className="light-bg">
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-12 text-center">
+						<div className="section-title">
 							<h2>初めてでも楽しく弾ける</h2>
 							<p>
                 「ピアノ始めたいけどなんか難しそう・・・」<br/>
@@ -19,9 +19,9 @@ const Index = () => {
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
+				<div className="row">
+					<div className="col-lg-12 text-center">
+						<div className="section-title">
 							<h2>受講生募集中</h2>
 							<p>
                 初心者も経験者も大歓迎です！
@@ -30,9 +30,9 @@ const Index = () => {
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
+				<div className="row">
+					<div className="col-lg-12 text-center">
+						<div className="section-title">
 							<h2>まずは体験レッスン！</h2>
 							<p>
                 お気軽にお問い合わせください！！
