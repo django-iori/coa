@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const Slider = () => {
     return (
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
